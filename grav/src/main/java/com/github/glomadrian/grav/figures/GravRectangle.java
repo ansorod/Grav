@@ -48,7 +48,7 @@ public class GravRectangle extends Grav {
         float rightBottomCornerY = drawPoint.y + height - trapeziumBottomHeightVar;
 
         Path path = new Path();
-        
+
         path.moveTo(drawPoint.x, drawPoint.y);
         path.lineTo(rightTopCornerX, rightTopCornerY);
         path.lineTo(rightBottomCornerX, rightBottomCornerY);
