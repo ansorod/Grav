@@ -25,6 +25,8 @@
   <declare-styleable name="RectangleGenerator">
     <attr name="rectangle_width" format="dimension" />
     <attr name="rectangle_height" format="dimension" />
+    <attr name="trapezium_width_variance" format="dimension" />
+    <attr name="trapezium_height_variance" format="dimension" />
   </declare-styleable>
 
   <declare-styleable name="RegularPointGenerator">
